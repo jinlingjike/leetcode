@@ -1,0 +1,2 @@
+2019-11-14 16:38:50.468 [Thread-0] INFO  com.gapon.leetcode.algorithm.test.ThreadLock - 做了一些事情。。。。
+2019-11-14 16:38:50.472 [Thread-1] INFO  com.gapon.leetcode.algorithm.test.ThreadLock - 做了另一些事情。。。。

@@ -1,0 +1,25 @@
+#spring.datasource.url=jdbc:mysql://192.168.0.198:3306/irule
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.datasource.username=root
+#spring.activemq.password=root
+#
+#mybatis.type-aliases-package=com.kanq.platform.test.entity
+#mybatis.config-location=classpath:mapper/UserMapper.xml
+#
+#mybatis-plus.mapper-locations=classpath:/mapper/*Mapper.xml
+#
+#logging.level.sql=debug
+
+server:
+  port: 8080
+  servlet:
+    context-path: /leetcode
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.33.194:3306/ipms?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: akazam
+    password: dbacc355
